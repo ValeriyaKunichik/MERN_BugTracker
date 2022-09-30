@@ -59,9 +59,6 @@ const DashHeader = () => {
         }
     }
 
-
-
-
     let newUserButton = null
     if (isAdmin) {
         if (USERS_REGEX.test(pathname)) {
